@@ -129,7 +129,6 @@ export class BeerService {
         return this.apiPath;
     } else {
         this.APIpathCheckingForDuplicateParamsAndConcat(this.filter, tempApiPath);
-        console.log(this.apiPath);
         return this.apiPath;
     }
   }
